@@ -1,0 +1,31 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# testing
+reactnd-contacts-complete/coverage
+
+# production
+reactnd-contacts-complete/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+reactnd-contacts-server/node_modules
+reactnd-contacts-server/.DS_Store
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.elasticbeanstalk/*.cfg.yml
+.elasticbeanstalk/*.global.yml
+
